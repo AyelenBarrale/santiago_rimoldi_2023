@@ -1,0 +1,55 @@
+@mixin link($font-size) {
+  color: $txt-color;
+  text-decoration: none;
+  font-size: $font-size;
+
+  &:hover {
+    color: $txt-color-2;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+}
+
+@mixin grid-2($margin) {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto auto;
+  margin: $margin;
+}
+@mixin text($font-size, $font-weight) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+@mixin form($border, $margin, $width) {
+  background-color: #ffffff;
+  border: $border;
+  margin: $margin;
+  font-size: $p;
+  width: $width;
+}
+
+@mixin button($padding) {
+  background-color: $txt-color;
+  color: $bg-color;
+  padding: $padding;
+  margin: 1% 0 0 1%;
+  border-radius: 5px;
+  border: none;
+}
+
+@mixin grid-hor($grid-template-columns, $padding) {
+  display: grid;
+  grid-template-columns: $grid-template-columns;
+  padding: $padding;
+  place-content: center;
+}
+
+@mixin transform-hov($scale, $color) {
+  transform: scale($scale);
+  transition: all 1s;
+  cursor: pointer;
+  color: $color;
+}
+

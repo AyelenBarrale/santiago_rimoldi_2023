@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EACd,MAAM,EAAE,aAAa;CAIxB;;AALD,AAEI,iBAFa,CAEb,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "planv.scss"
+    ],
+    "names": [],
+    "file": "planv.css"
+}

@@ -1,0 +1,23 @@
+/* Footer */
+.footer-container {
+    background-color: $bg-color-2;
+    @include grid-hor (10fr 2fr, 36px 190px);
+    .footer-item-1 .h4-text {
+        font-size: $h4;
+    }
+}
+.footer-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    background: transparent;
+    i {
+        &:hover {
+            color: $txt-color-2;
+            cursor: pointer;
+        }
+    }
+    a {
+        @include link ($p);
+    }
+}

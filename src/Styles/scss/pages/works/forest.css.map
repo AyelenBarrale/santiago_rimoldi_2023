@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EACd,MAAM,EAAE,aAAa;EAKrB;;QAEI;CACP;;AATD,AAEI,iBAFa,CAEb,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "forest.scss"
+    ],
+    "names": [],
+    "file": "forest.css"
+}

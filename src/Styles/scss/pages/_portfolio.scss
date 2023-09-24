@@ -1,0 +1,24 @@
+.PDF-container {
+  background-color: rgb(11, 11, 11);
+}
+.control-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+
+  .spanText {
+    padding: 1rem;
+    align-items: center;
+    font-size: $p;
+  }
+}
+
+.available {
+  cursor: pointer;
+}
+
+.disable {
+  cursor: not-allowed;
+  color: rgb(131, 130, 130);
+}

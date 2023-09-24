@@ -1,0 +1,10 @@
+/* Work Page */
+.work-container{
+    .workGrid {
+        display: flex;
+        flex-wrap: wrap;
+        .workItem-container{
+            width: 100%;
+        }
+    }
+}

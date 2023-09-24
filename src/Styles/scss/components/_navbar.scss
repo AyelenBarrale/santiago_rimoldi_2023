@@ -1,0 +1,26 @@
+/* navbar */
+.navbar {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background: $nav-bg-color;
+  padding: 0.5% 10%;
+  img {
+    width: 50%;
+  }
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: $hov-color;
+}
+
+.carousel-indicators {
+  z-index: 0;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  visibility: hidden;
+}
