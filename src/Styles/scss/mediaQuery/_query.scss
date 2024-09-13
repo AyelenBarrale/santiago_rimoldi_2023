@@ -154,3 +154,16 @@
         }
     }
 }
+// Big Desktop
+@media only screen and (min-width: 1561px) and (max-width:2600px){
+    //work home big desktop
+    .work-container{
+        .workGrid {
+            display: flex;
+            flex-wrap: wrap;
+            .workItem-container{
+                width: 25%;
+            }
+        }
+    }
+}
