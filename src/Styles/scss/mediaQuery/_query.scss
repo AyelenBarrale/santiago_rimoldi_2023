@@ -1,6 +1,6 @@
 /* MEDIA QUERY */ 
 /* home mobile */ 
-@media only screen and (max-width:679px) { 
+@media only screen and (max-width:42rem) { 
     //about home mobile
     .about-container, .about-container {
         display: inline-block;
@@ -80,7 +80,7 @@
 }
 
 /* Table */
-@media only screen and (min-width: 680px) and (max-width:1159px) {
+@media only screen and (min-width: 42rem) and (max-width:75rem) {
     ul.navbar-nav {
         text-align: right;
     }
@@ -127,7 +127,7 @@
     }
 }
 /* Small Desktop */
-@media only screen and (min-width: 1160px) and (max-width:1560px){
+@media only screen and (min-width: 75rem) and (max-width:98rem){
     .line {
         width: 320px;
     }
@@ -155,7 +155,7 @@
     }
 }
 // Big Desktop
-@media only screen and (min-width: 1561px) and (max-width:2600px){
+@media only screen and (min-width: 98rem) and (max-width:160rems ){
     //work home big desktop
     .work-container{
         .workGrid {
