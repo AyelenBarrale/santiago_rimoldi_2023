@@ -225,6 +225,7 @@ body {
   width: 25%;
   position: relative;
   overflow: hidden;
+  aspect-ratio: 1;
 }
 .work-container .workGrid .workItem-container .workItem {
   color: #ffffff;
@@ -241,6 +242,9 @@ body {
   border: none;
   background-color: transparent;
   outline: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 .work-container .workGrid .workItem-container .workItem:focus {
   text-decoration: none;
@@ -257,6 +261,9 @@ body {
 }
 .work-container .workGrid .workItem-container .workItem img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .work-container .workGrid .workItem-container .workItem .text {
   position: absolute;
@@ -509,6 +516,7 @@ body {
   }
   .work-container-2 .workGrid .workItem-container {
     width: 100%;
+    aspect-ratio: 1;
   }
   .work-container .workGrid {
     display: flex;
@@ -516,6 +524,7 @@ body {
   }
   .work-container .workGrid .workItem-container {
     width: 100%;
+    aspect-ratio: 1;
   }
   .wip {
     margin-top: 25%;
@@ -571,6 +580,7 @@ body {
   }
   .work-container-2 .workGrid .workItem-container {
     width: 33.33%;
+    aspect-ratio: 1;
   }
   .work-container .workGrid {
     display: flex;
@@ -578,6 +588,7 @@ body {
   }
   .work-container .workGrid .workItem-container {
     width: 33.33%;
+    aspect-ratio: 1;
   }
   .line {
     width: 180px;
@@ -597,6 +608,7 @@ body {
   }
   .work-container-2 .workGrid .workItem-container {
     width: 25%;
+    aspect-ratio: 1;
   }
   .work-container .workGrid {
     display: flex;
@@ -604,6 +616,7 @@ body {
   }
   .work-container .workGrid .workItem-container {
     width: 25%;
+    aspect-ratio: 1;
   }
 }
 @media only screen and (min-width: 98rem) and (max-width: 160rem) {
@@ -622,6 +635,7 @@ body {
   .work-container-2 .workGrid .workItem-container {
     width: 22%;
     max-width: 300px;
+    aspect-ratio: 1;
   }
   .work-container .workGrid {
     display: flex;
@@ -632,6 +646,7 @@ body {
   .work-container .workGrid .workItem-container {
     width: 22%;
     max-width: 300px;
+    aspect-ratio: 1;
   }
   .about-container {
     max-width: 1200px;
@@ -662,6 +677,7 @@ body {
   .work-container-2 .workGrid .workItem-container {
     width: 18%;
     max-width: 280px;
+    aspect-ratio: 1;
   }
   .work-container .workGrid {
     display: flex;
@@ -674,6 +690,7 @@ body {
   .work-container .workGrid .workItem-container {
     width: 18%;
     max-width: 280px;
+    aspect-ratio: 1;
   }
   .about-container {
     max-width: 1400px;
