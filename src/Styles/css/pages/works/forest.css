@@ -1,15 +1,18 @@
-.forest-container {
-  margin: 0% 18% 6% 18%;
-  /* .video-container {
-        @extend %iframe-responsive; 
-    } */
+/* Error: The target selector was not found.
+ * Use "@extend %iframe-responsive !optional" to avoid this error.
+ *   ,
+ * 8 |         @extend %iframe-responsive; 
+ *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   src/Styles/scss/pages/works/forest.scss 8:9  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: The target selector was not found.\aUse "@extend %iframe-responsive !optional" to avoid this error.\a   \2577 \a 8 \2502          @extend %iframe-responsive; \a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   src/Styles/scss/pages/works/forest.scss 8:9  root stylesheet';
 }
-
-.forest-container img {
-  width: 100%;
-  margin: 1% 0;
-}
-
-/*# sourceMappingURL=forest.css.map */
-
-/*# sourceMappingURL=forest.css.map */

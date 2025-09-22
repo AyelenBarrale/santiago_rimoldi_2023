@@ -106,7 +106,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 .workItem-container{
-                    width: 33,33%;
+                    width: 33.33%;
                 }
             }
         }
@@ -116,7 +116,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 .workItem-container{
-                    width: 33,33%;
+                    width: 33.33%;
                 }
             }
         }
@@ -154,16 +154,116 @@
         }
     }
 }
-// Big Desktop
-@media only screen and (min-width: 98rem) and (max-width:160rems ){
+// Big Desktop (1568px - 2560px)
+@media only screen and (min-width: 98rem) and (max-width: 160rem) {
+    .line {
+        width: 400px;
+    }
+
+    //work page big desktop
+    .work-container-2 {
+        padding: 15% 0;
+        .workGrid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            .workItem-container{
+                width: 22%;
+                max-width: 300px;
+            }
+        }
+    }
     //work home big desktop
     .work-container{
         .workGrid {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
             .workItem-container{
-                width: 25%;
+                width: 22%;
+                max-width: 300px;
             }
         }
+    }
+
+    // Optimize spacing for larger screens
+    .about-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    .contact-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+}
+
+// Ultra Wide Desktop (2560px+)
+@media only screen and (min-width: 160rem) {
+    .line {
+        width: 500px;
+    }
+
+    //work page ultra wide
+    .work-container-2 {
+        padding: 10% 0;
+        .workGrid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 3rem;
+            max-width: 1800px;
+            margin: 0 auto;
+            .workItem-container{
+                width: 18%;
+                max-width: 280px;
+            }
+        }
+    }
+    //work home ultra wide
+    .work-container{
+        .workGrid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 3rem;
+            max-width: 1800px;
+            margin: 0 auto;
+            .workItem-container{
+                width: 18%;
+                max-width: 280px;
+            }
+        }
+    }
+
+    // Center content and limit max width for better readability
+    .about-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 3rem;
+    }
+
+    .contact-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 3rem;
+    }
+
+    // Optimize text containers
+    .wip {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 3rem;
+    }
+
+    // Better navbar spacing
+    .navbar {
+        max-width: 1800px;
+        margin: 0 auto;
+        padding: 0 3rem;
     }
 }
