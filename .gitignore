@@ -19,6 +19,10 @@
 .env.test.local
 .env.production.local
 
+# deployment instructions (keep private)
+DEPLOY_INSTRUCTIONS.md
+deploy-notes.md
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

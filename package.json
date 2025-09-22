@@ -24,13 +24,15 @@
     "sass": "^1.43.2",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "http://santiagorimoldi.com",
+  "homepage": "https://santiagorimoldi.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass": "sass --watch src/Styles/scss:src/Styles/css"
+    "sass": "sass --watch src/Styles/scss:src/Styles/css",
+    "predeploy": "npm run build",
+    "deploy": "echo 'Deploy will be handled by GitHub Actions'"
   },
   "eslintConfig": {
     "extends": [
