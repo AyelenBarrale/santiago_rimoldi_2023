@@ -11,7 +11,7 @@ export const WorkList = ({filter}) => {
         .then((querySnapshot) => {
             const data = [];
             querySnapshot.forEach((doc) => {
-            data.push(doc.data());
+                data.push(doc.data());
             });
             setWorks(data);
         })

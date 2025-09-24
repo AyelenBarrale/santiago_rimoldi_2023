@@ -630,22 +630,18 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
   }
   .work-container-2 .workGrid .workItem-container {
-    width: 22%;
-    max-width: 300px;
+    width: 25%;
     aspect-ratio: 1;
   }
   .work-container .workGrid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
   }
   .work-container .workGrid .workItem-container {
-    width: 22%;
-    max-width: 300px;
+    width: 25%;
     aspect-ratio: 1;
   }
   .about-container {
@@ -670,26 +666,18 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 3rem;
-    max-width: 1800px;
-    margin: 0 auto;
   }
   .work-container-2 .workGrid .workItem-container {
-    width: 18%;
-    max-width: 280px;
+    width: 20%;
     aspect-ratio: 1;
   }
   .work-container .workGrid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 3rem;
-    max-width: 1800px;
-    margin: 0 auto;
   }
   .work-container .workGrid .workItem-container {
-    width: 18%;
-    max-width: 280px;
+    width: 20%;
     aspect-ratio: 1;
   }
   .about-container {
